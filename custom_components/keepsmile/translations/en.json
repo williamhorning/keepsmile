@@ -1,0 +1,20 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Add Keepsmile Light",
+                "description": "Enter the Bluetooth MAC address of your Keepsmile light.",
+                "data": {
+                    "mac": "MAC Address"
+                }
+            }
+        },
+        "error": {
+            "cannot_connect": "Failed to connect to the device.",
+            "no_devices_found": "No Keepsmile devices found nearby. Make sure they are powered on and in range."
+        },
+        "abort": {
+            "already_configured": "This device is already configured."
+        }
+    }
+}

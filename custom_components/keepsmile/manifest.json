@@ -1,0 +1,28 @@
+{
+  "domain": "keepsmile",
+  "name": "Keepsmile",
+  "version": "1.0.0",
+  "documentation": "https://codeberg.org/jersey/keepsmile",
+  "issue_tracker": "https://codeberg.org/jersey/keepsmile/issues",
+  "dependencies": ["bluetooth"],
+  "codeowners": ["@williamhorning"],
+  "iot_class": "local_push",
+  "integration_type": "device",
+  "config_flow": true,
+  "bluetooth": [
+    { "local_name": "KS01-*" },
+    { "local_name": "KS02-*" },
+    { "local_name": "KS03-*" },
+    { "local_name": "KS03~*" },
+    { "local_name": "KS04-*" },
+    { "local_name": "KS04~*" },
+    { "local_name": "KS05-*" },
+    { "local_name": "KS07-*" },
+    { "local_name": "KS08-*" },
+    { "local_name": "KS09-*" },
+    { "local_name": "KS10-*" },
+    { "local_name": "KS11-*" },
+    { "local_name": "KS12-*" },
+    { "local_name": "KS13-*" }
+  ]
+}
